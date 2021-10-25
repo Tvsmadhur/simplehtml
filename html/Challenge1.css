@@ -1,0 +1,180 @@
+.challenges-main-container{
+    margin: 1em auto;
+    width: 800px;
+    /* position: relative; */
+   }
+    
+   .sale{
+    position:absolute;
+    font-size: 12px;
+    padding: 5px 15px;
+    top: 21%;
+    left: 17%;
+    background-color: orangered;
+    color: #fff;
+    letter-spacing: .15em;
+   }
+    
+   .main-article{
+    border: 10px solid black;
+    font-family: sans-serif;
+    line-height: 1.4;
+    margin-top: 20px;
+   }
+    
+   .main-article h2{
+    font-size: 20px;
+    color: black;
+    background-color: #e3dfde;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0;
+   }
+    
+   .product-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+    
+   .price{
+    font-size: 20px;
+   }
+    
+   .product-2-detail{
+    font-size: 18px;
+   }
+    
+   .pricing-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   }
+    
+   .main-article h2,
+   .shipping,
+   .btn,
+   .product-details-heading
+   {
+    text-transform: uppercase;
+   }
+    
+   .product-details-heading{
+    font-size: 20px;
+    color: black;
+   }
+    
+   .shipping{
+    font-size: 12px;
+    color: #909190
+   }
+    
+   .info:link{
+    color: black;
+   }
+    
+   .info:hover{
+    text-decoration: none;
+   }
+    
+   .main-product-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+    
+   .product-1,
+   .product-2,
+   .product-3{
+    flex-shrink: 0;
+    flex: 1;
+   }
+    
+   .product-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+    
+   .box-container{
+    margin-top: 40px;
+    display: flex;
+   }
+    
+   .box1,
+   .box2,
+   .box3,
+   .box4,
+   .box5,
+   .box6{
+    padding: 10px;
+   }
+    
+   .box1{
+    background-color: black;
+   }
+    
+   .box2{
+    margin: 0 5px;
+    background-color: blue;
+   }
+    
+   .box3{
+    margin: 0 5px;
+    background-color: red;
+   }
+    
+   .box4{
+    margin: 0 5px;
+    background-color: yellow; 
+   }
+    
+   .box5{
+    margin: 0 5px;
+    background-color: yellowgreen;
+   }
+    
+   .box6{
+    margin-left: 5px;
+    background-color: orange;
+   }
+    
+   ul{
+    list-style: square;
+   }
+    
+   .btn{
+    background-color: black;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    border: none;
+    border-top: 10px solid black;
+    font-size: 16px;
+    width: 100%;
+   }
+   .btn:hover{
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+   }
+    
+   .container{
+    width: 1000px;
+    background-color: #444;
+   }
+    
+   .container .div1, .container .div2{
+    width: 50%;
+    padding: 10px;
+    border: 2px solid red;
+   }
+    
+   .container .div1{
+    float: left;
+   }
+    
+   .container .div2{
+    float: left;
+   }
