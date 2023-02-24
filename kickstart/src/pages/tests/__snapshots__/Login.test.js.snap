@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`checking Every component is rendered correctly should take snapshot 1`] = `
+<div>
+  <section
+    class="Form my-4 mx-5"
+  >
+    <div
+      class="container no-gutters"
+    >
+      <div
+        class="row no-gutters"
+      >
+        <div
+          class="col-lg-5"
+        >
+          <img
+            alt="image"
+            class="img-fluid"
+            role="img"
+            src="https://images.unsplash.com/photo-1664575601786-b00156752b61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxzZWFyY2h8MXx8d29ya3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+          />
+        </div>
+        <div
+          class="col-lg-7 px-5 pt-5"
+        >
+          <h4
+            data-testid="heading"
+          >
+            Login
+          </h4>
+          <form>
+            <div
+              class="form-row mb-4"
+            >
+              <div
+                class="col-lg-7"
+              >
+                <input
+                  class="form-control my-3 p-2"
+                  data-testid="username"
+                  name="username"
+                  placeholder="Enter email"
+                  role="input"
+                  type="email"
+                />
+                <p
+                  role="error"
+                  style="color: red;"
+                />
+              </div>
+            </div>
+            <div
+              class="form-row mb-4"
+            >
+              <div
+                class="col-lg-7"
+              >
+                <input
+                  class="form-control my-3 p-2 "
+                  data-testid="password"
+                  name="password"
+                  placeholder="********"
+                  role="input"
+                  type="password"
+                />
+                <p
+                  role="error"
+                  style="color: red;"
+                />
+              </div>
+            </div>
+            <div
+              class="form-row"
+            >
+              <div
+                class="col-lg-7"
+              >
+                <button
+                  class="btn1 mt-3 mb-5"
+                  data-testid="button"
+                  type="button"
+                >
+                  Login
+                </button>
+              </div>
+            </div>
+            <p
+              role="error"
+              style="color: red;"
+            />
+            <p>
+              Don't have an account? 
+              <a
+                href="/signup"
+              >
+                Register here
+              </a>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

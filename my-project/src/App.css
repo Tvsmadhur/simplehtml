@@ -1,0 +1,39 @@
+
+
+* {
+  margin: 0;
+}
+
+img {
+  height: 350px;
+  width: 100%;
+}
+.parent{
+  background-color:rgb(211, 211, 211);
+  height: 100vh;
+  width:100vw;
+}
+
+.container-1{
+  background-color:white;
+  /* height:100vh; */
+}
+.container-2{
+  background-color:white;
+  
+}
+
+@media screen and (max-width: 38.6875rem)
+{
+.slider-container {
+    width: 100%;
+    margin: auto;
+}
+}
+@media screen and (max-width:  61.9375rem)
+{
+.slider-container {
+    width: 100%;
+    margin: auto;
+}
+}
