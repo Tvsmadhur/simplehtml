@@ -1,15 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <script src="index.js" defer></script>
-</head>
-<body>
-  <button onclick="y()">Click</button>
-<button>154822299x9999999</button>
-<button>1</button>
-</body>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <style>
+      *{
+        margin:0px;
+      }
+      
+.parent{
+  display:flex;
+  margin:20px;
+  
+}
+.child{
+  margin-left:10px;
+}
+.container{
+  position: fixed;
+  height: 100%;
+  width: 400px;
+  background-color: lightgreen;
+}
+.side-content{
+  margin-left:400px;
+ 
+  height:100%;
+}
+.bottom-content{
+  position:absolute;
+  bottom:20px;
+ 
+ 
+}
+input{
+ padding:10px;
+ margin-left:100px;
+ width:1000px;
+}
+.placement{
+  position:absolute;
+  right:30px;
+  top:30px;
+}
+
+    </style>
+  <script src="./index.js" defer></script>
+  </head> 
+
+  <body>
+    <div id="app">
+      <div class="container">
+
+    
+      <div id="sidebar-container" class="sidebar-container">
+       
+      </div>
+     
+    </div>
+    <div id="side-content" class="side-content">
+      <div class="bottom-content">
+        <input type="text" placeholder="Enter Message here">
+      </div>
+
+    </div>
+  </div>
+  </body>
 </html>
